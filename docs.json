@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Kyro",
   "colors": {
-    "primary": "#AD92FE",
+    "primary": "#AD93F5",
     "light": "#D0BFFF",
-    "dark": "#7971FC"
+    "dark": "#7873f8"
   },
   "favicon": "/favicon.svg",
   "navigation": {
