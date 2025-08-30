@@ -24,17 +24,17 @@
           {
             "group": "Core",
             "pages": [
-              "essentials/accounts",
-              "essentials/profiles"
+              "features/accounts",
+              "features/profiles"
             ]
           },
           {
             "group": "Features",
             "pages": [
-              "essentials/tracking",
-              "essentials/inactivity",
-              "essentials/infractions",
-              "essentials/sessions"
+              "features/tracking",
+              "features/inactivity",
+              "features/infractions",
+              "features/sessions"
             ]
           }
         ]
