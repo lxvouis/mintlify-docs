@@ -57,7 +57,7 @@
     "links": [
       {
         "label": "Support",
-          "href": "mailto:support@kyrohr.cc"
+        "href": "mailto:support@kyrohr.cc"
       }
     ],
     "primary": {
@@ -65,18 +65,6 @@
       "label": "Get started",
       "href": "https://discord.gg/sPz3Tk2CfG"
     }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
   },
   "footer": {
     "socials": {
