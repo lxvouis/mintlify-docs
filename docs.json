@@ -4,8 +4,8 @@
   "name": "Kyro",
   "colors": {
     "primary": "#AD93F5",
-    "light": "#D0BFFF",
-    "dark": "#000001"
+    "light": "#AD93F5",
+    "dark": "#AD93F5"
   },
   "favicon": "/favicon.svg",
   "navigation": {
