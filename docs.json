@@ -35,6 +35,13 @@
               "features/infractions",
               "features/sessions"
             ]
+          },
+          {
+            "group": "Extra",
+            "pages": [
+              "extra/terms",
+              "extra/privacy"
+            ]
           }
         ]
       }
