@@ -40,7 +40,8 @@
             "group": "Extra",
             "pages": [
               "extra/terms",
-              "extra/privacy"
+              "extra/privacy",
+              "extra/partner"
             ]
           }
         ]
