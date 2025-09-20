@@ -79,5 +79,8 @@
       "discord": "https://discord.gg/sPz3Tk2CfG",
       "website": "https://docs.kyrohr.cc"
     }
+  },
+  "integrations": {
+    "intercom": "tuya00a3"
   }
 }
