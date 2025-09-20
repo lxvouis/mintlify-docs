@@ -81,6 +81,8 @@
     }
   },
   "integrations": {
-    "intercom": "tuya00a3"
+  "intercom": {
+    "appId": "tuya00a3"
   }
+}
 }
