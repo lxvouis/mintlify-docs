@@ -54,6 +54,16 @@
           "href": "https://discord.gg/sPz3Tk2CfG",
           "icon": "users"
         }
+        {
+          "anchor": "Status",
+          "href": "https://status.kyrohr.cc/",
+          "icon": "trending-up"
+        }
+        {
+          "anchor": "Feedback",
+          "href": "https://kyrohr.cc/feedback",
+          "icon": "pencil"
+        }
       ]
     }
   },
