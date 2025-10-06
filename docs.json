@@ -95,10 +95,6 @@
   "integrations": {
   "intercom": {
     "appId": "tuya00a3"
-  },
-  "banner": {
-  "content": "🚀 We're currently working on our documentation. You may encounter errors during this time.",
-  "dismissible": true 
-}
+  }
 }
 }
