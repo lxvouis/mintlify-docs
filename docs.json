@@ -55,6 +55,17 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "introduction"
+            ]
+          }
+        ]
       }
     ],
     "global": {
