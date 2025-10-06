@@ -103,9 +103,5 @@
     "intercom": {
       "appId": "tuya00a3"
     }
-  },
-  "banner": {
-    "content": "🚀 We're completing some maintenance. Some aspects of our documentation may not function as expected.",
-    "dismissible": true
   }
 }
