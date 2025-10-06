@@ -102,7 +102,7 @@
     "primary": {
       "type": "button",
       "label": "Get started",
-      "href": "https://discord.gg/sPz3Tk2CfG"
+      "href": "https://discord.com/oauth2/authorize?client_id=1390029898206412841"
     }
   },
   "footer": {
