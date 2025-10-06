@@ -96,5 +96,110 @@
   "intercom": {
     "appId": "tuya00a3"
   }
+},
+  {
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Kyro",
+  "colors": {
+    "primary": "#AD93F5",
+    "light": "#AD93F5",
+    "dark": "#AD93F5"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "index",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core",
+            "pages": [
+              "features/accounts",
+              "features/profiles"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/tracking",
+              "features/inactivity",
+              "features/infractions",
+              "features/sessions",
+              "features/knowledgebase",
+              "features/kyropay"
+            ]
+          },
+          {
+            "group": "Extra",
+            "pages": [
+              "extra/terms",
+              "extra/privacy",
+              "extra/partner"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Community",
+          "href": "https://discord.gg/sPz3Tk2CfG",
+          "icon": "users"
+        },
+        {
+          "anchor": "Status",
+          "href": "https://status.kyrohr.cc/",
+          "icon": "clock"
+        },
+        {
+          "anchor": "Feedback",
+          "href": "https://kyrohr.cc/feedback",
+          "icon": "pencil"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@kyrohr.cc"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get started",
+      "href": "https://discord.gg/sPz3Tk2CfG"
+    }
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/sPz3Tk2CfG",
+      "website": "https://docs.kyrohr.cc"
+    }
+  },
+  "integrations": {
+  "intercom": {
+    "appId": "tuya00a3"
+  }
+},
+"banner": {
+  "content": "🚀 We're completing some maintenance. Some aspects of our documentation may not function as expected.",
+  "dismissible": true 
 }
+}
+
 }
