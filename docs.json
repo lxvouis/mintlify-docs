@@ -22,9 +22,9 @@
           {
             "group": "Core",
             "pages": [
-              "features/configuration",
-              "features/accounts",
-              "features/profiles"
+              "core/accounts",
+              "core/profiles",
+              "core/configuration"
             ]
           },
           {
