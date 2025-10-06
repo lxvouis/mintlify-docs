@@ -40,11 +40,10 @@
             ]
           },
           {
-            "group": "Extra",
+            "group": "Legal",
             "pages": [
-              "extra/terms",
-              "extra/privacy",
-              "extra/partner"
+              "legal/terms",
+              "legal/privacy"
             ]
           }
         ]
