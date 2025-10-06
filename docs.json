@@ -46,6 +46,13 @@
               "legal/privacy"
             ]
           }
+          {
+            "group": "Extra",
+            "pages": [
+              "extra/partner",
+              "extra/support"
+            ]
+          }
         ]
       }
     ],
