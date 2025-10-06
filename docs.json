@@ -34,7 +34,8 @@
               "features/inactivity",
               "features/infractions",
               "features/sessions",
-              "features/knowledgebase"
+              "features/knowledgebase",
+              "features/kyropay"
             ]
           },
           {
