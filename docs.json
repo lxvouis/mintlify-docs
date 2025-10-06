@@ -98,7 +98,7 @@
     }
   },
   "banner": {
-    "content": "🚀 Version 2.0 is now live! See our [changelog](/changelog) for details.",
+    "content": "🚀 We're completing some maintenance. Some aspects of our documentation may not function as expected.",
     "dismissible": true
   }
 }
