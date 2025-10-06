@@ -6,7 +6,15 @@ icon: "wallet"
 
 ## What is KyroPay?
 
-KyroPay is a feature which allows you to reward your staff. Each staff member has their own wallet, which contains three balances; their current balance, pending balance, and total balance. You can learn more about each balance bleow.
+KyroPay is a feature which allows you to reward your staff. Each staff member has their own wallet, which contains their balances and additional information about their account. Employees can withdraw their balance for a reward (for example, you could set this for Robux or setup your own reward system), or request a re-evaluation of their balance from your team in the event something isn't quite right. KyroPay is one of the most flexible yet free features we offer.
+
+<Warning>
+  KyroPay is an invite-only feature. You can request access by contacting our support team.
+</Warning>
+
+## The panel
+
+Accessing the panel is simple; just use the **/kyropay** command, and the wallet dashboard will be opened. As well as some additional information about KyroPay, three balances will be displayed; their current balance, pending balance, and total balance. You can learn more about each balance below.
 
 | Type | Description                                                                                           |
 | -------- | ------------------------------------------------------------------------------------------------- |
@@ -14,10 +22,30 @@ KyroPay is a feature which allows you to reward your staff. Each staff member ha
 | Pending  | The amount of money that is currently being withdrawn from their wallet and is pending approval   |
 | Total    | The all-time amount of money that has entered their wallet                                        |
 
-<Warning>
-  KyroPay is an invite-only feature. You can request access by contacting our support team.
-</Warning>
+### Withdrawing your balance
 
-## Configuring the knowledgebase
+Withdrawing your balance is simple. On the KyroPay panel, simply ensure that you have the minimum balance required to withdraw in your **current account**. The minimum balance required is configured by your workspace administrators — however, if you attempt to withdraw your balance with insufficient funds, the minimum balance will be displayed. Once you've successfully withdrawn your balance, the amount you withdrew will be removed from your current account and transferred to your pending balance, which is untouchable on your end. Your workspace administrators will be notified about your withdrawal request and will either decline it (which will send it back to your current balance) or accept it (which will remove it from your pending balance entirely).
 
-Unlike other modules where you're required to use the configuration panel, all workspace administrators can modify the knowledgebase. Simply head to the knowledgebase and you'll see two buttons, *Add Document* and *Delete Document*. Tap the *Add Document* button to add a name for your resource and the link to it, and it'll be automatically added to the knowledgebase for everyone to see. To remove a document, simply press the *Delete Document* button and choose the resource from the drop-down. Please note that you might need to run the command again to see the changes.
+In the future, we're excited to implement an API for KyroPay, allowing you to automate group fund payments or even bank account transactions. However, for development, managerial and security concerns, we'll be releasing this at a later date. For now, you'll be required to manually reward your staff — KyroPay is how you keep track of everyone's balances and requests.
+
+### Requesting a review
+
+If a staff member believes that their balance is incorrect, they can request a review. For example, if you give each staff member 5$ in their balance after each session they attend, and they weren't given it, a staff member could request a manual re-evaluation of their balance to ensure it's accurate and updated. This simply sends a notificaiton in the KyroPay administration channel to your workspace administrators, notifying them that you've requested a re-evaluation of your current balance. Your workspace administrators may choose to increase, decrease or keep your balance the same.
+
+## Configuring KyroPay
+
+KyroPay is currently configured by our support team once you're invited into the beta testing of KyroPay. You'll be asked to answer a few questions so that we can setup KyroPay for you — our team don't need access to your server. Once you've answered our questionairre, KyroPay will be fully setup for you! In the future, we'll add configuration for KyroPay via our configuration menu. You can view the options for KyroPay below;
+
+<ResponseField name="minimum_balance" type="string" required>
+  The minimum balance employees must have in their current account before withdrawing
+</ResponseField>
+<ResponseField name="withdraw_channel" type="string" required>
+  The channel where withdrawal requests will be sent
+</ResponseField>
+<ResponseField name="review_channel" type="string" required>
+  The channel where review requests will be sent
+</ResponseField>
+
+<Info>
+  Our team will setup KyroPay for you. Built-in configuration will be added upon KyroPay's public release.
+</Info>
