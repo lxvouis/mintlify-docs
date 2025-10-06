@@ -62,7 +62,7 @@
           {
             "group": "Overview",
             "pages": [
-              "introduction"
+              "api/introduction"
             ]
           }
         ]
