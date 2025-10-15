@@ -1,0 +1,46 @@
+---
+title: "Wallet"
+description: "Kyro Wallets keep track of all earnings"
+icon: "wallet"
+---
+
+## What is a wallet?
+
+Wallet is a feature which allows you to reward your staff. Each staff member has their own wallet, which contains their balances and additional information about their account. Employees can withdraw their balance for a reward (for example, you could set this for Robux or setup your own reward system), or request a re-evaluation of their balance from your team in the event something isn't quite right. Wallet is one of the most flexible yet free features we offer.
+
+## Accessing the wallet
+
+Accessing the panel is simple; just use the **/wallet** command, and the wallet will be opened. As well as some additional information about the wallet system, three balances will be displayed; their current balance, pending balance, and total balance. You can learn more about each balance below.
+
+| Type | Description                                                                                           |
+| -------- | ------------------------------------------------------------------------------------------------- |
+| Current  | The amount of money that the employee currently has in their wallet                               |
+| Pending  | The amount of money that is currently being withdrawn from their wallet and is pending approval   |
+| Total    | The all-time amount of money that has entered their wallet                                        |
+
+### Withdrawing your balance
+
+Withdrawing your balance is simple. On the panel, simply ensure that you have the minimum balance required to withdraw in your **current account**. The minimum balance required is configured by your workspace administrators — however, if you attempt to withdraw your balance with insufficient funds, the minimum balance will be displayed. Once you've successfully withdrawn your balance, the amount you withdrew will be removed from your current account and transferred to your pending balance, which is untouchable on your end. Your workspace administrators will be notified about your withdrawal request and will either decline it (which will send it back to your current balance) or accept it (which will remove it from your pending balance entirely).
+
+In the future, we're excited to implement an API for our wallet system, allowing you to automate group fund payments or even bank account transactions. However, for development, managerial and security concerns, we'll be releasing this at a later date. For now, you'll be required to manually reward your staff — wallet is how you keep track of everyone's balances and requests.
+
+### Requesting a review
+
+If a staff member believes that their balance is incorrect, they can request a review. For example, if you give each staff member 5$ in their balance after each session they attend, and they weren't given it, a staff member could request a manual re-evaluation of their balance to ensure it's accurate and updated. This simply sends a notificaiton in the wallet administration channel to your workspace administrators, notifying them that you've requested a re-evaluation of your current balance. Your workspace administrators may choose to increase, decrease or keep your balance the same.
+
+## Configuring the system
+
+Configuring the wallet system is extremely simple. Get started with the **/manage-wallet** command and use the options below to configure the system to your liking. The system automatically updates after every configuration update.
+
+<ResponseField name="minimum balance" type="number" required>
+  The minimum balance employees must have in their current account before withdrawing
+</ResponseField>
+<ResponseField name="withdraw channel" type="number" required>
+  The channel where withdrawal requests will be sent
+</ResponseField>
+<ResponseField name="review channel" type="number" required>
+  The channel where review requests will be sent
+</ResponseField>
+<ResponseField name="role ping" type="number" required>
+  The role which will be pinged on each request
+</ResponseField>
