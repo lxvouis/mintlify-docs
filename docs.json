@@ -36,7 +36,7 @@
               "features/infractions",
               "features/sessions",
               "features/knowledgebase",
-              "features/kyropay"
+              "features/wallet"
             ]
           },
           {
