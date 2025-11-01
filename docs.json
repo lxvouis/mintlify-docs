@@ -114,9 +114,4 @@
     "intercom": {
       "appId": "tuya00a3"
     }
-  },
-  "banner": {
-  "content": "🚀 Version 2.0 is now live! See our [changelog](/changelog) for details.",
-  "dismissible": true 
-}
 }
